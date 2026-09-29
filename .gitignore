@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# C++ 編譯產物
+temp_output
+temp_output.exe
+*.o
+*.out
+
+# VS Code 個人化設定
+.vscode/
