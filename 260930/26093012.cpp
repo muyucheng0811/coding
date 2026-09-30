@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void doublevalue(int &number){
-    number *=2;
+void addTen(int *ptr){
+    *ptr +=10;
 }
 int main(){
-    int number = 10;
-    doublevalue(number);
+    int number = 5;
+    addTen(&number);
     cout << number << endl;
     return 0;
 }
